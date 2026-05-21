@@ -1,6 +1,6 @@
-# gitrepo-test
+# gitsemver-test
 
-Repository used in [gitrepo] tests.
+Repository used in [gitsemver] tests.
 
 ## master Branch
 
@@ -55,7 +55,7 @@ git checkout master
 
 ## branch-of-2.0.0 Branch
 
-https://github.com/giantswarm/gitrepo-test/tree/branch-of-2.0.0
+https://github.com/giantswarm/gitsemver-test/tree/branch-of-2.0.0
 
 This branch is created from v2.0.0 tag without any merging whatsoever. All
 commits have single parent. This allows to test resolving versions for commits
@@ -73,7 +73,7 @@ $ git log --graph --pretty=format:'%H %ci %d %s'
 
 ## branch-of-1.0.0 Branch
 
-https://github.com/giantswarm/gitrepo-test/tree/branch-of-1.0.0
+https://github.com/giantswarm/gitsemver-test/tree/branch-of-1.0.0
 
 This branch is created from v1.0.0 tag with merged master afterwards. This
 allows to test resolving versions for commits with multiple parents on long
@@ -94,7 +94,7 @@ $ git log --graph --pretty=format:'%H %ci %d %s'
 
 ## complex-tree Branch
 
-https://github.com/giantswarm/gitrepo-test/tree/complex-tree
+https://github.com/giantswarm/gitsemver-test/tree/complex-tree
 
 This is branch created from initial commit with a hundreds commits followed by
 series non-fast-forward merges. There are no tagged commits in this branch so
@@ -215,4 +215,4 @@ $ git log --graph --pretty=format:'%H %ci %d %s'
 * 2091354c7b8659f1846a876fbe2032fd1390d569 2019-11-08 11:42:00 +0000  Initial commit
 ```
 
-[gitrepo]: https://github.com/giantswarm/gitrepo
+[gitsemver]: https://github.com/giantswarm/gitsemver
